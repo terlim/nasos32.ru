@@ -1,0 +1,5 @@
+@font-face {
+    font-family: "myiconfont";
+    src: url("../fonts/icons/myiconfont.eot");
+    src: url("../fonts/icons/myiconfont.eot?#iefix") format("eot"), url("../fonts/icons/myiconfont.woff") format("woff"), url("../fonts/icons/myiconfont.ttf") format("truetype"), url("../fonts/icons/myiconfont.svg#myiconfont") format("svg");
+}
