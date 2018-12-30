@@ -1,5 +1,3 @@
-// сборка финального CSS
-
 "use strict";
 var gulp            = require('gulp'),
     plumber         = require('gulp-plumber'),

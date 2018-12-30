@@ -24,6 +24,4 @@ gulp.task('watch', function(){
     gulp.watch(config.source.js, gulp.series('js_build'));
     gulp.watch(config.source.icon, gulp.series('icons_build'));
 
-
-
 });

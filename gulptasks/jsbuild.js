@@ -10,7 +10,7 @@ var gulp            = require('gulp'),
     config          = require('./_config');
 
 gulp.task('js_build', function () {
-    return gulp.src(config.source.js) // получим файл main.js
+    return gulp.src(config.source.js) // получим файл
         .pipe(plumber({
             errorHandler: notify.onError(function (err) {
                 return{
