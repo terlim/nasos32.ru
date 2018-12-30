@@ -1,0 +1,38 @@
+.icon-bar {
+    display: block;
+    width: 24px;
+    height: 2px;
+    margin-top: 3px;
+    margin-bottom: 4px;
+    background: #fff !important;
+}
+
+.icon-bar--wrapper .icon-bar {
+    -webkit-transition: all .25s ease-in-out;
+    -o-transition: all .25s ease-in-out;
+    transition: all .25s ease-in-out;
+}
+
+.icon-bar--wrapper.open .icon-bar:nth-child(1) {
+    -webkit-transform: rotate(45deg) translate(5px, 4px);
+    -ms-transform: rotate(45deg) translate(5px, 4px);
+    transform: rotate(45deg) translate(5px, 4px);
+}
+
+.icon-bar--wrapper.open .icon-bar:nth-child(2) {
+    opacity: 0;
+}
+
+.icon-bar--wrapper.open .icon-bar:nth-child(3) {
+    -webkit-transform: rotate(-45deg) translate(4px, -4px);
+    -ms-transform: rotate(-45deg) translate(4px, -4px);
+    transform: rotate(-45deg) translate(4px, -4px);
+}
+
+.navbar-toggler {
+    border: 0;
+}
+
+.nav-item {
+    text-transform: uppercase;
+}
