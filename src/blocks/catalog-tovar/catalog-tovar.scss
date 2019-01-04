@@ -1,0 +1,32 @@
+@import "../custom_bootstrap/variables_custom";
+@import "../../../node_modules/bootstrap/scss/functions";
+@import "../../../node_modules/bootstrap/scss/variables";
+@import "../../../node_modules/bootstrap/scss/mixins";
+
+.catalog-tovar-wrapper{
+  display: flex;
+  flex-wrap: nowrap;
+  flex-direction: row;
+}
+.catalog-tovar-prop{
+  display: flex;
+  flex-direction: row;
+  background-color: white;
+  padding: 1rem;
+  border-bottom: 1px solid hsla(0,0%,63%,.3);
+  border-left: 1px solid hsla(0,0%,63%,.3);
+  border-right: 1px solid hsla(0,0%,63%,.3);
+}
+.btn-catalog-order{
+  margin-top: 1rem;
+}
+@include media-breakpoint-up(lg){
+  .catalog-tovar-wrapper{
+
+    flex-direction: column;
+  }
+  .catalog-tovar-prop{
+    display: flex;
+    flex-direction: column;
+  }
+}

@@ -1,7 +1,10 @@
 @import "../blocks/font-face/font-face.css";
 @import "../blocks/custom_bootstrap/custom_bootsrap.css";
 @import "../blocks/off-canvas/off-canvas.css";
+@import "../../node_modules/swiper/dist/css/swiper.min.css";
 
 
 @import "../blocks/main/main.css";
 @import "../blocks/navbar/navbar.css";
+@import "../blocks/left_menu/left_menu.css";
+@import "../blocks/catalog-tovar/catalog-tovar.css";
