@@ -1,0 +1,15 @@
+.footer {
+    background-color: #343a40;
+    padding: 1rem 0;
+    margin-top: 1rem;
+    min-height: 127px;
+}
+
+.footer-copyright {
+    text-align: right;
+}
+
+.footer-copyright, .footer-link a {
+    text-transform: uppercase;
+    color: #728da0;
+}

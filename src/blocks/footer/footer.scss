@@ -1,0 +1,18 @@
+@import "../custom_bootstrap/variables_custom";
+@import "../../../node_modules/bootstrap/scss/functions";
+@import "../../../node_modules/bootstrap/scss/variables";
+@import "../../../node_modules/bootstrap/scss/mixins";
+
+.footer{
+  background-color: #343a40;
+  padding: 1rem 0;
+  margin-top: 1rem;
+  min-height: 127px;
+}
+.footer-copyright {
+  text-align: right;
+}
+.footer-copyright, .footer-link a {
+  text-transform: uppercase;
+  color: #728da0;
+}

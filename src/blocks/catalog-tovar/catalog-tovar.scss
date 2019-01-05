@@ -4,15 +4,21 @@
 @import "../../../node_modules/bootstrap/scss/mixins";
 
 .catalog-tovar-wrapper{
+  height: 100%;
+  padding-bottom: 1.5rem;
+}
+.catalog-tovar-card{
   display: flex;
-  flex-wrap: nowrap;
-  flex-direction: row;
+  flex-direction: column;
+  height: 100%;
 }
 .catalog-tovar-prop{
+  flex-grow: 1;
   display: flex;
-  flex-direction: row;
+  flex-direction: column;
   background-color: white;
   padding: 1rem;
+  justify-content: space-between;
   border-bottom: 1px solid hsla(0,0%,63%,.3);
   border-left: 1px solid hsla(0,0%,63%,.3);
   border-right: 1px solid hsla(0,0%,63%,.3);
@@ -23,10 +29,9 @@
 @include media-breakpoint-up(lg){
   .catalog-tovar-wrapper{
 
-    flex-direction: column;
+
   }
   .catalog-tovar-prop{
-    display: flex;
-    flex-direction: column;
+
   }
 }
