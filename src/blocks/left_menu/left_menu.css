@@ -8,13 +8,11 @@
 
 .left-menu-item {
     margin-bottom: 1.5rem;
+    border: 1px solid rgba(161, 161, 161, 0.3);
 }
 
 .left-menu-item--title {
     background-color: #fff;
-    border-bottom: 1px solid rgba(161, 161, 161, 0.3);
-    border-left: 1px solid rgba(161, 161, 161, 0.3);
-    border-right: 1px solid rgba(161, 161, 161, 0.3);
     padding: 1.25rem 1rem 1rem 1.25rem;
     min-height: 4em;
     text-transform: uppercase;

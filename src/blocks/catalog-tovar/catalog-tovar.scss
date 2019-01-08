@@ -11,6 +11,7 @@
   display: flex;
   flex-direction: column;
   height: 100%;
+  border: 1px solid hsla(0,0%,63%,.3);
 }
 .catalog-tovar-prop{
   flex-grow: 1;
@@ -19,12 +20,17 @@
   background-color: white;
   padding: 1rem;
   justify-content: space-between;
-  border-bottom: 1px solid hsla(0,0%,63%,.3);
-  border-left: 1px solid hsla(0,0%,63%,.3);
-  border-right: 1px solid hsla(0,0%,63%,.3);
+
 }
 .btn-catalog-order{
   margin-top: 1rem;
+}
+.catalog-tovar-title{
+  font-size: 1.1rem;
+}
+.catalog-tovar-price{
+  text-align: right;
+  font-size: 1.25rem;
 }
 @include media-breakpoint-up(lg){
   .catalog-tovar-wrapper{

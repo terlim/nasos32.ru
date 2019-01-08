@@ -7,12 +7,12 @@
 }
 .left-menu-item{
   margin-bottom: 1.5rem;
+  border: 1px solid hsla(0,0%,63%,.3);
+
 }
 .left-menu-item--title{
   background-color: #fff;
-  border-bottom: 1px solid hsla(0,0%,63%,.3);
-  border-left: 1px solid hsla(0,0%,63%,.3);
-  border-right: 1px solid hsla(0,0%,63%,.3);
+
   padding: 1.25rem 1rem 1rem 1.25rem;
   min-height: 4em;
   text-transform: uppercase;
