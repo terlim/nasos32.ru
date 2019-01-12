@@ -1,0 +1,59 @@
+@import "../custom_bootstrap/variables_custom";
+@import "../../../node_modules/bootstrap/scss/functions";
+@import "../../../node_modules/bootstrap/scss/variables";
+@import "../../../node_modules/bootstrap/scss/mixins";
+
+.tovar-wrapper{
+  background-color: #fff;
+  padding: 1rem;
+  height: 100%;
+}
+.h1-tovar{
+
+  font-size: 1.5rem;
+}
+.tovar-price{
+  font-size: 1.3rem;
+  font-weight: bold;
+  text-align: right;
+  padding-bottom: 1rem;
+}
+.tovar-zayavka{
+  padding: 1.5rem;
+  background-color: #4f8aa8;
+}
+.btn-tovar-order{
+  color: white;
+  background-color: brown;
+  width: 100%;
+  font-size: 1.5rem;
+  &:hover{
+    color:yellow;
+    text-decoration: none;
+  }
+}
+.tovar-content{
+  margin-top: 2rem;
+}
+.tab-content>.active {
+  display: block;
+  padding-top: 1rem;
+}
+@include media-breakpoint-up(md){
+  .h1-tovar{
+
+    font-size: 2.5rem;
+  }
+  .tovar-price{
+    font-size: 1.7rem;
+
+  }
+  .tovar-zayavka{
+    padding: 2rem;
+
+  }
+}
+.ui-widget.ui-widget-content {
+  border: 1px solid #c5c5c5;
+  z-index: 1500;
+}

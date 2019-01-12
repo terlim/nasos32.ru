@@ -1,3 +1,15 @@
 .content-wrapper {
-    padding-top: 3rem;
+    padding-top: 1.5rem;
+}
+
+.modal.show .modal-dialog {
+    -webkit-transform: translate(0) !important;
+    -ms-transform: translate(0) !important;
+    transform: translate(0) !important;
+}
+
+@media (min-width: 768px) {
+    .content-wrapper {
+        padding-top: 3rem;
+    }
 }

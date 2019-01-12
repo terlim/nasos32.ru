@@ -1,5 +1,17 @@
 @import "../custom_bootstrap/variables_custom";
+@import "../../../node_modules/bootstrap/scss/functions";
+@import "../../../node_modules/bootstrap/scss/variables";
+@import "../../../node_modules/bootstrap/scss/mixins";
 
 .content-wrapper{
-  padding-top: 3rem;
+  padding-top: 1.5rem;
+}
+.modal.show .modal-dialog {
+  
+  transform: translate(0)!important;
+}
+@include media-breakpoint-up(md){
+  .content-wrapper{
+    padding-top: 3rem;
+  }
 }
