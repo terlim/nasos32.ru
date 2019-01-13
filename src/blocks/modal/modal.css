@@ -1,0 +1,111 @@
+.close {
+    position: absolute;
+    right: 32px;
+    top: 32px;
+    width: 32px;
+    height: 32px;
+    opacity: 0.3;
+}
+
+.close:hover {
+    opacity: 1;
+}
+
+.close:before, .close:after {
+    position: absolute;
+    top: 4px;
+    left: 15px;
+    content: ' ';
+    height: 25px;
+    width: 2px;
+    background-color: #333;
+}
+
+.modal-header .close {
+    margin: -1rem -1rem -1rem auto !important;
+}
+
+.close:before {
+    -webkit-transform: rotate(45deg);
+    -ms-transform: rotate(45deg);
+    transform: rotate(45deg);
+}
+
+.close:after {
+    -webkit-transform: rotate(-45deg);
+    -ms-transform: rotate(-45deg);
+    transform: rotate(-45deg);
+}
+
+.modal.show .modal-dialog {
+    -webkit-transform: translate(0) !important;
+    -ms-transform: translate(0) !important;
+    transform: translate(0) !important;
+}
+
+.msoc_product_line {
+    border-bottom: 1px solid #EEE !important;
+    min-height: 80px !important;
+    padding: 5px 19px 5px 10px !important;
+    display: -webkit-box !important;
+    display: -webkit-flex !important;
+    display: -ms-flexbox !important;
+    display: flex !important;
+    -webkit-justify-content: space-around !important;
+    -ms-flex-pack: distribute !important;
+    justify-content: space-around !important;
+    justify-items: stretch !important;
+    -webkit-flex-wrap: wrap !important;
+    -ms-flex-wrap: wrap !important;
+    flex-wrap: wrap !important;
+}
+
+.msoc_product_line_image {
+    position: inherit !important;
+    width: 120px !important;
+    -webkit-align-self: center !important;
+    -ms-flex-item-align: center !important;
+    align-self: center !important;
+}
+
+.msoc_product_line_pagetitle {
+    margin-left: 0 !important;
+    padding: .5rem 1rem !important;
+    max-width: initial !important;
+    float: none !important;
+}
+
+.msoc_product_line_count {
+    width: 214px !important;
+    text-align: right !important;
+    padding: .5rem 0rem !important;
+    top: initial !important;
+    float: none !important;
+}
+
+.forder-popup__block--grey {
+    background-color: #f7f7f !important;
+    font-size: 12px !important;
+    padding: 0.5rem 1rem !important;
+}
+
+.msoneclick_form-group {
+    margin: .5rem !important;
+    display: -webkit-box !important;
+    display: -webkit-flex !important;
+    display: -ms-flexbox !important;
+    display: flex !important;
+    width: 100% !important;
+}
+
+@media (min-width: 768px) {
+    .forder-popup__block--grey {
+        padding: 20px 40px !important;
+    }
+
+    .msoc_product_line {
+        -webkit-flex-wrap: nowrap !important;
+        -ms-flex-wrap: nowrap !important;
+        flex-wrap: nowrap !important;
+    }
+}
